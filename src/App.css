@@ -1,0 +1,41 @@
+
+.body {
+  background-color: var(--bg-color);
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 768px;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+.disable {
+  font-weight: var(--font-w-200);
+  color: gray;
+}
+
+.disable__icon {
+  fill: gray;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fill__primary {
+  fill: var(--primary-color);
+}
+
+.main {
+  padding: 2rem 5rem;
+}
+
+@media (max-width: 425px) {
+  .main {
+    padding: 2rem 1rem;
+  }
+}

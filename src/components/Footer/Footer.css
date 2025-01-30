@@ -1,0 +1,29 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 2rem;
+  }
+  
+  .footer__links {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .footer__item {
+    font-size: 1.5rem;
+  }
+  
+  .footer p {
+    font-weight: var(--font-w-200);
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .react__icon {
+    fill: rgb(33, 142, 231);
+    font-size: 1.5rem;
+  }

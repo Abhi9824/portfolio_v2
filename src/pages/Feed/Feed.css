@@ -1,0 +1,18 @@
+.feed {
+    padding-top: 2rem;
+  }
+  
+  .feed__ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .feed__li {
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  
+  .feed__li:hover {
+    background-color: var(--bg-alt);
+  }

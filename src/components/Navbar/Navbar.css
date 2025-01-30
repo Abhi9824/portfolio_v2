@@ -1,0 +1,17 @@
+.navbar {
+    display: flex;
+    gap: 3rem;
+  }
+  
+  .nav__link {
+    padding: 0.5rem 2rem;
+  }
+  .nav__link:hover {
+    background-color: var(--bg-alt);
+  }
+  
+  @media (max-width: 425px) {
+    .navbar {
+      gap: 1rem;
+    }
+  }
