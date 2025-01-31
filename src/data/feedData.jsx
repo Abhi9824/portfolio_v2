@@ -21,8 +21,8 @@ export const feedData = [
       "WeShare is an social media web application built using MERN stack, redux-toolkit and integrated with Cloudinary API to store images.",
     imageUrl:
       "https://res.cloudinary.com/dzs0veiqg/image/upload/v1737751753/social-media_lmcalm.png",
-    live: "https://we-share-v1.vercel.app/",
-    github: "https://github.com/amlan-xyz/social-media-application",
+    live: "https://social-media-frontend-nine-gules.vercel.app/login",
+    github: "https://github.com/Abhi9824/social-media-frontend",
     tech: ["React", "Node.js", "mongodb", "Redux"],
   },
   {
