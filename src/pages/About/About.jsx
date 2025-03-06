@@ -24,21 +24,23 @@ const About = () => {
           Maveric Systems Limited - Associate Engineer (June 2023 – September
           2024)
         </strong>
-        <ul>
+        <ul className="list-items">
           <li>
-            Upgraded React applications from React 16 to React 18 using Hooks
-            and functional components.
+            Upgraded applications from React 16 to 18, refactoring class
+            components to functional components with Hooks for improved
+            performance and maintainability.
           </li>
           <li>
-            Conducted functional testing to validate features, identify bugs,
-            and ensure timely resolutions.
+            Integrated RESTful APIs with Axios, Fetch, Node.js, and Express for
+            seamless data flow.
           </li>
           <li>
-            Created unit tests with Jest and led regression testing for
-            stability.
+            Built and optimized fintech applications, ensuring secure and
+            efficient user interactions.
           </li>
           <li>
-            Managed bugs and test cases with Jira for smooth collaboration.
+            Wrote unit tests with Jest and conducted regression testing to
+            maintain system stability.
           </li>
         </ul>
       </p>

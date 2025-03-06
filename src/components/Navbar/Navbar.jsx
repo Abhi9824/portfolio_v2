@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 export const Navbar = () => {
   const getActiveStyle = ({ isActive }) => ({
-    borderBottom: isActive ? "5px solid #9953c0" : "",
+    borderBottom: isActive ? "5px solid #3b95b3" : "",
   });
   return (
     <nav className="navbar container">

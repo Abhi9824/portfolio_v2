@@ -8,7 +8,7 @@ export const Hero = () => {
   return (
     <div className="hero container">
       <div className="hero__banner">
-        <img src="/banner.jpg" alt="waves" />
+        <img src="/banner3.jpg" alt="waves" />
       </div>
       <div className="hero__body">
         <div className="profile__heading">
