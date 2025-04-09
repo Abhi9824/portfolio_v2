@@ -13,13 +13,12 @@ export const feedData = [
   },
   {
     id: 2,
-    img: "/posts/task.jpeg",
+    img: "/posts/work-fiver.png",
     title: "Work-Fiverr",
     subTitle: "Project Management Application",
     description:
       "Work-Fiverr is a real time task management application created using MERN stack, redux-toolkit and integration with chartjs for the visualization on the progress of all project tasks to achieve the best desired goal.",
-    imageUrl:
-      "https://res.cloudinary.com/dzs0veiqg/image/upload/v1737783681/Screenshot_2025-01-25_111106_tjeuzz.png",
+    imageUrl: "/posts/work-fiver.png",
     live: "https://work-fiverr-frontend.vercel.app",
     github: "https://github.com/Abhi9824/work-fiverr-frontend.git",
     tech: ["React", "Node.js", "mongodb", "Redux"],
@@ -38,13 +37,12 @@ export const feedData = [
   },
   {
     id: 4,
-    img: "/posts/social.jpg",
+    img: "/posts/social.png",
     title: " XShare",
     subTitle: "Social Media Application",
     description:
       "WeShare is an social media web application built using MERN stack, redux-toolkit and integrated with Cloudinary API to store images.",
-    imageUrl:
-      "https://res.cloudinary.com/dzs0veiqg/image/upload/v1737751753/social-media_lmcalm.png",
+    imageUrl: "/posts/social.png",
     live: "https://social-media-frontend-nine-gules.vercel.app/login",
     github: "https://github.com/Abhi9824/social-media-frontend",
     tech: ["React", "Node.js", "mongodb", "Redux"],
