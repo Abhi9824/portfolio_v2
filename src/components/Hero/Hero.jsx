@@ -1,5 +1,5 @@
 import { BsFillRocketTakeoffFill } from "react-icons/bs";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaDownload } from "react-icons/fa";
 import { FaCode } from "react-icons/fa6";
 import { MdMailOutline, MdOutlineEventAvailable } from "react-icons/md";
 import "./Hero.css";
@@ -10,13 +10,30 @@ export const Hero = () => {
       <div className="hero__banner">
         <img src="/banner3.jpg" alt="waves" />
       </div>
+
       <div className="hero__body">
         <div className="profile__heading">
           <img src="/profile_img.gif" alt="Me" className="profile__pic" />
-          <a href="https://github.com/Abhi9824" className="hireme__btn">
-            Hire Me <BsFillRocketTakeoffFill />
-          </a>
+
+          <div className="button__group">
+            <a
+              href="mailto:abhijitchanda2000@gmail.com"
+              className="hireme__btn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Hire Me <BsFillRocketTakeoffFill />
+            </a>
+            <a
+              href="/about/Abhijit_Chanda.pdf"
+              download="Abhijit_Chanda_CV.pdf"
+              className="hireme__btn"
+            >
+              CV <FaDownload />
+            </a>
+          </div>
         </div>
+
         <div className="profile__content">
           <h1>Abhijit Chanda</h1>
           <small>Crafting user-friendly web experiences.</small>
@@ -24,24 +41,36 @@ export const Hero = () => {
             Hi, I'm a Full-Stack web developer specializing in MERN stack and a
             Computer Science & Engineering grad.
           </p>
+
           <ul className="profile__links">
             <li className="disable">
               <MdOutlineEventAvailable className="disable__icon" /> Available
             </li>
             <li className="disable">
               <FaGithub className="disable__icon" />
-              <a href="https://github.com/Abhi9824" className="disable">
+              <a
+                href="https://github.com/Abhi9824"
+                className="disable"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Github
               </a>
             </li>
             <li className="disable">
               <MdMailOutline className="disable__icon" />
-              <a href="mailto:heyamlan19@gmail.com" className="disable">
+              <a
+                href="mailto:abhijitchanda2000@gmail.com"
+                className="disable"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 abhijitchanda2000@gmail.com
               </a>
             </li>
           </ul>
         </div>
+
         <div className="profile__skills">
           <h3>
             My skills <FaCode className="fill__primary" />
