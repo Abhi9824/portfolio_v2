@@ -1,18 +1,38 @@
 .feed {
-    padding-top: 2rem;
-  }
-  
-  .feed__ul {
-    display: flex;
-    flex-direction: column;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.feed__header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.feed__header h2 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.feed__header p {
+  color: var(--text-muted);
+  font-size: 1.1rem;
+}
+
+.feed__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2.5rem;
+}
+
+.feed__item {
+  height: 100%;
+}
+
+@media (max-width: 425px) {
+  .feed__grid {
+    grid-template-columns: 1fr;
     gap: 2rem;
   }
-  
-  .feed__li {
-    padding: 1rem;
-    border-radius: 5px;
-  }
-  
-  .feed__li:hover {
-    background-color: var(--bg-alt);
-  }
+}

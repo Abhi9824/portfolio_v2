@@ -1,12 +1,18 @@
-
 .body {
-  background-color: var(--bg-color);
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .container {
-  max-width: 768px;
-  margin: auto;
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.main {
+  padding: 2rem 5rem;
+  flex: 1;
 }
 
 ul {
@@ -14,27 +20,35 @@ ul {
 }
 
 .disable {
-  font-weight: var(--font-w-200);
-  color: gray;
+  color: var(--text-muted);
+  font-weight: 400;
 }
 
 .disable__icon {
-  fill: gray;
+  fill: var(--text-muted);
 }
 
 a {
   text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--primary-color);
 }
 
 .fill__primary {
   fill: var(--primary-color);
 }
 
-.main {
-  padding: 2rem 5rem;
+@media (max-width: 768px) {
+  .main {
+    padding: 2rem 2rem;
+  }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 480px) {
   .main {
     padding: 2rem 1rem;
   }
